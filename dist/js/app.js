@@ -4,7 +4,6 @@ const navbar = document.querySelector("nav");
 
 window.addEventListener("DOMContentLoaded", function () {
   var form = document.getElementById("contact-form");
-
   var status = document.getElementById("status");
 
   // Success and Error functions for after the form is submitted
@@ -175,7 +174,6 @@ function ajax(method, url, data, success, error) {
 }
 
 // Back to top arrow button
-
 const backToTopBtn = $("#backToTopBtn");
 
 $(window).scroll(function () {
